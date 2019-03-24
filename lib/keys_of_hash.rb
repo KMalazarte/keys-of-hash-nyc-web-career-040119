@@ -5,5 +5,6 @@ class Hash
       arguments.each do |argument|
         if value == argument
           array.push(key)
+        end
+    end
   end
-end
